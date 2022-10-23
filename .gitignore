@@ -1,6 +1,7 @@
 # Zeitgeist
 
 data/dataset/
+data/dataset_test/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
