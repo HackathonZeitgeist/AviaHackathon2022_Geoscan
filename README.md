@@ -21,6 +21,10 @@
 
 ![U-net](demo/nstruct.png "U-net")
 
+### Презентация 
+
+Презентация к задаче находится в папке `demo` с названием "Geoscan_Zeitgeist_Presentation.pptx"
+
 ---
 ## Основные файлы
 
