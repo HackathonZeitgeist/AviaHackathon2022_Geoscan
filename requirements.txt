@@ -4,3 +4,4 @@ keras==2.8.0
 numpy==1.21.5
 scimage==0.19.2
 matplotlib==3.5.2
+opencv==4.6.0

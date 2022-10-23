@@ -33,6 +33,8 @@ data/parser.py - Парсер в датасет
 ---
 ## Датасет
 
+[Готовый датасет](https://drive.google.com/file/d/1AV1BFUOpvXitrfE__K4YvkyNsoN6EE3T/view?usp=sharing)
+
 Работа с парсером данных и подготовка датасета:
   - Разрезать изображения на подходящий размер (128x128, 256x256, 512x512)
   - Разметить изображения с помощью [VGG Annotator](https://www.robots.ox.ac.uk/~vgg/software/via/via.html) или [Makesence.ai](https://www.makesense.ai/)
@@ -83,6 +85,7 @@ python ../../main.py --input-json dataset.json --input-folder .
 │   │       └── result9.png
 ...
 ```
+
 ---
 ## Результары работы
 
@@ -120,4 +123,5 @@ keras 2.8.0
 numpy 1.21.5
 scimage 0.19.2
 matplotlib 3.5.2
+opencv 4.6
 ```
