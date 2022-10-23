@@ -14,6 +14,7 @@
 ```
 unet.ipynb - Тренировка нейросети на датасете
 avhack.ipynb - Демонстрация работы готовой модели
+data/parser.py - Парсер в датасет
 ```
 
 ---
@@ -69,17 +70,41 @@ python ../../main.py --input-json dataset.json --input-folder .
 │   │       └── result9.png
 ...
 ```
+---
+## Результары работы
+
+Результатом работы являются размеченные на 2 класса изображения (background, tree)
+
+Оригинал             |  Обработанное
+:-------------------------:|:-------------------------:
+![](demo/orig.png)  |  ![](demo/nmask.png)
+
+---
+## Производительность
+
+Спека на котором выполнялась тренировки тестирование:
+- Nvidia 1080ti12Gb
+- i5-12500
+- RAM 32Gb
 
 ---
 ## Подготовка окружения
 
+```bash
+pip install -r requirements.txt
+```
+
+```
+cuda 11.7
+```
 ### Версии пакетов
 
 ```
-tensorflow
-keras
-cuda
-numpy
+tensorflow 2.8.0
+keras 2.8.0
+numpy 1.21.5
+scimage 0.19.2
+matplotlib 3.5.2
 ```
 
 ### Windows
